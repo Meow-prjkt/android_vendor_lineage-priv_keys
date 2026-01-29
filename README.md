@@ -3,7 +3,7 @@
 # Usage
 
 ```bash
-git clone https://github.com/KernelBuilding/vendor_lineage-priv_keys vendor/lineage-priv/keys
+git clone https://github.com/Meow-prjkt/vendor_lineage-priv_keys vendor/lineage-priv/keys
 ```
 
 ```bash
