@@ -71,6 +71,7 @@ PRODUCT_CERTIFICATE_OVERRIDES := \
     com.android.uwb.resources:com.android.uwb.resources.certificate.override \
     com.android.virt:com.android.virt.certificate.override \
     com.android.vndk.current:com.android.vndk.current.certificate.override \
+    com.android.webapp:com.android.webapp.certificate.override \
     com.android.wifi:com.android.wifi.certificate.override \
     com.android.wifi.dialog:com.android.wifi.dialog.certificate.override \
     com.android.wifi.resources:com.android.wifi.resources.certificate.override \
@@ -88,6 +89,10 @@ PRODUCT_CERTIFICATE_OVERRIDES += \
     ServiceUwbResources:com.android.uwb.resources.certificate.override \
     ServiceWifiResources:com.android.wifi.resources.certificate.override \
     WifiDialog:com.android.wifi.dialog.certificate.override \
+    com.android.webapp:com.android.webapp.certificate.override \
+    TelecomServiceResources:com.android.telecom.resources.certificate.override \
+    TelecomUi:com.android.telecomui.certificate.override \
+    WebAppService:com.android.webapp.certificate.override \
     GmscompatLib:gmscompat_lib.certificate.override
 
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/releasekey
