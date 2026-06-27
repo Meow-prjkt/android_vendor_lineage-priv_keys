@@ -96,13 +96,13 @@ android_app_certificate {
 }
 
 android_app_certificate {
-    name: "com.android.hardware.biometrics.face.virtual.override",
-    certificate: "com.android.hardware.biometrics.face.virtual.override",
+    name: "com.android.hardware.biometrics.face.virtual.certificate.override",
+    certificate: "com.android.hardware.biometrics.face.virtual.certificate.override",
 }
 
 android_app_certificate {
-    name: "com.android.hardware.biometrics.fingerprint.virtual.override",
-    certificate: "com.android.hardware.biometrics.fingerprint.virtual.override",
+    name: "com.android.hardware.biometrics.fingerprint.virtual.certificate.override",
+    certificate: "com.android.hardware.biometrics.fingerprint.virtual.certificate.override",
 }
 
 android_app_certificate {
@@ -111,8 +111,8 @@ android_app_certificate {
 }
 
 android_app_certificate {
-    name: "com.android.hardware.cas.override",
-    certificate: "com.android.hardware.cas.override",
+    name: "com.android.hardware.cas.certificate.override",
+    certificate: "com.android.hardware.cas.certificate.override",
 }
 
 android_app_certificate {
@@ -151,8 +151,8 @@ android_app_certificate {
 }
 
 android_app_certificate {
-    name: "com.android.hardware.threadnetwork.override",
-    certificate: "com.android.hardware.threadnetwork.override",
+    name: "com.android.hardware.threadnetwork.certificate.override",
+    certificate: "com.android.hardware.threadnetwork.certificate.override",
 }
 
 android_app_certificate {
@@ -291,6 +291,16 @@ android_app_certificate {
 }
 
 android_app_certificate {
+    name: "com.android.telecom.resources.certificate.override",
+    certificate: "com.android.telecom.resources.certificate.override",
+}
+
+android_app_certificate {
+    name: "com.android.telecomui.certificate.override",
+    certificate: "com.android.telecomui.certificate.override",
+}
+
+android_app_certificate {
     name: "com.android.telephony.certificate.override",
     certificate: "com.android.telephony.certificate.override",
 }
@@ -338,6 +348,11 @@ android_app_certificate {
 android_app_certificate {
     name: "com.android.vndk.current.certificate.override",
     certificate: "com.android.vndk.current.certificate.override",
+}
+
+android_app_certificate {
+    name: "com.android.webapp.certificate.override",
+    certificate: "com.android.webapp.certificate.override",
 }
 
 android_app_certificate {
